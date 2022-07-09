@@ -6,7 +6,7 @@
 #    By: fothman <fothman@student.42kl.edu.my>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/04 17:33:25 by fothman           #+#    #+#              #
-#    Updated: 2022/07/07 18:53:03 by fothman          ###   ########.fr        #
+#    Updated: 2022/07/09 15:43:02 by fothman          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,7 @@ SRCS	= ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 			ft_striteri.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
 OBJS	= $(SRCS:.c=.o)
 BONUS_S	= ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c \
-			ft_lstclear.c ft_lstiter.c ft_lstmap.c
+			ft_lstclear.c ft_lstiter.c ft_lstmap.c ft_lstdelone.c
 BONUS_O	= $(BONUS_S:.c=.o)
 all:	$(NAME)
 
